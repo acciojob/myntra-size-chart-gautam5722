@@ -1,11 +1,22 @@
-table{
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-th,td{
-	margin: 10px auto;
-	border: 1px solid black;
-	padding-left: 20px;
-	text-align:center;
-	
-}
+table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        thead th {
+            background-color: #b71c1c;
+            color: white;
+        }
+        tbody td:nth-child(1) {
+            background-color: #ef9a9a;
+        }
+        tbody tr:nth-child(2) td {
+            background-color: #d7ccc8;
+        }
+        tbody tr:nth-child(3) td {
+            background-color: #eeeeee;
+        }
